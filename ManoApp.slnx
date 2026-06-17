@@ -1,1 +1,3 @@
-<Solution />
+<Solution>
+  <Project Path="ManoApp.Web/ManoApp.Web.csproj" />
+</Solution>
