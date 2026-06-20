@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "Detección de manos";
+}
+
+<div class="text-center">
+    <h1 class="display-4">ManoApp</h1>
+    <p>Muestra tu mano frente a la cámara para detectar el gesto.</p>
+
+    <div style="position: relative; width: 640px; height: 480px; margin: 0 auto;">
+        <video id="webcam" width="640" height="480" autoplay playsinline style="position: absolute; top: 0; left: 0;"></video>
+        <canvas id="overlay" width="640" height="480" style="position: absolute; top: 0; left: 0;"></canvas>
+    </div>
+
+    <div id="result" style="margin-top: 20px; font-size: 1.5rem;">
+        Esperando detección...
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/@@mediapipe/hands/hands.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@@mediapipe/camera_utils/camera_utils.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@@mediapipe/drawing_utils/drawing_utils.js" crossorigin="anonymous"></script>
+    <script src="~/js/hand-detection.js"></script>
+}

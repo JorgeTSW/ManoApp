@@ -34,8 +34,8 @@ Las decisiones de arquitectura de este proyecto están documentadas como ADRs (A
 
 ## Estado actual
 
-🟢 Rama `01-mvc`: modelos de datos y lógica de conteo/clasificación de gestos completos y probados. Pendiente: vista con captura de cámara y MediaPipe.
+🟢 Rama `main`: MVC, modelos de datos y lógica de conteo/clasificación de gestos completos y probados. Pendiente: vista con captura de cámara y MediaPipe.
 
 ## Autor
 
-Jorge Pedrozo — proyecto de referencia para la materia de Arquitectura de Software.
+Dr. Jorge J. Pedrozo Romero — proyecto de referencia para la materia de Arquitectura de Software.
