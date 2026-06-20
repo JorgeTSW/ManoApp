@@ -1,4 +1,4 @@
-﻿namespace ManoApp.Web.Models
+﻿namespace ManoApp.Domain.Models
 {
     public class HandLandmark
     {

@@ -1,7 +1,10 @@
+using ManoApp.Domain.Interfaces;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddScoped<IGestureClassifier, ManoApp.Domain.Services.GestureClassifier>();
 
 var app = builder.Build();
 

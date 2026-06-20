@@ -1,4 +1,4 @@
-using ManoApp.Web.Models;
+using ManoApp.Domain.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
