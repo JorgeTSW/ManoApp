@@ -48,17 +48,33 @@ Mostrando el navbar con las secciones disponibles (Home, Detección de manos, Pr
 
 ![]( ./figs/b.PNG )
 
+### Detección en tiempo real — Mano abierta
+
+Vista de detección de manos mostrando los 21 landmarks dibujados sobre la cámara en vivo, clasificando correctamente el gesto como "Mano abierta" con 5 dedos extendidos.
+
 ---
 
 ![]( ./figs/c.PNG )
+
+### Detección en tiempo real — Dos manos, Puño
+
+Detección simultánea de ambas manos mostrando el gesto "Puño" (0 dedos extendidos) para cada una, confirmando que el sistema clasifica correctamente múltiples manos en un mismo frame.
 
 ---
 
 ![]( ./figs/d.PNG )
 
+### Historial de gestos vía PowerShell — Acceso autorizado
+
+Consulta del endpoint protegido ´/api/Hand/logs´ usando un token JWT válido con rol Admin, mostrando el historial de gestos detectados (timestamp, requestId, mano, conteo y nombre del gesto).
+
 ---
 
 ![]( ./figs/e.PNG )
+
+### Prueba de autorización — Acceso denegado
+
+Intento de iniciar sesión y consultar el historial de logs con un usuario sin permisos suficientes, confirmando que la API rechaza correctamente la petición con ´error 401´ No autorizado.
 
 ---
 
