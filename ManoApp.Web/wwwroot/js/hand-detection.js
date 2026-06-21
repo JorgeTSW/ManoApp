@@ -58,7 +58,7 @@ function sendLandmarksToServer(multiHandLandmarks, multiHandedness) {
         };
     });
 
-    fetch('/api/Hand', {
+    fetch('https://localhost:7088/api/Hand', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(hands)
