@@ -38,7 +38,7 @@ Las decisiones de arquitectura de este proyecto están documentadas como ADRs (A
 
 ## Screenshots
 
-![]( ./figs/a.PNG )
+![**Pantalla de inicio de ManoApp**, mostrando el navbar con las secciones disponibles (Home, Detección de manos, Privacy) y la opción de Iniciar sesión, junto con el botón principal para acceder a la demo de reconocimiento de gestos.]( ./figs/a.PNG )
 
 ---
 
@@ -57,6 +57,10 @@ Las decisiones de arquitectura de este proyecto están documentadas como ADRs (A
 ![]( ./figs/e.PNG )
 
 ---
+
+## Uso de IA
+
+Declaro que el uso de IA en este proyecto solo se limita a cuestiones estéticas (front), tests y debuggeos. La idea es original, así como su diseño arquitectónico e implementación.
 
 ## Autor
 
