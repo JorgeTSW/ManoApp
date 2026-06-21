@@ -34,7 +34,29 @@ Las decisiones de arquitectura de este proyecto están documentadas como ADRs (A
 
 ## Estado actual
 
-🟢 Rama `main`: MVC, modelos de datos y lógica de conteo/clasificación de gestos completos y probados. Pendiente: vista con captura de cámara y MediaPipe.
+🟢 Rama `04-api`
+
+## Screenshots
+
+![]( ./figs/a.PNG )
+
+---
+
+![]( ./figs/b.PNG )
+
+---
+
+![]( ./figs/c.PNG )
+
+---
+
+![]( ./figs/d.PNG )
+
+---
+
+![]( ./figs/e.PNG )
+
+---
 
 ## Autor
 
