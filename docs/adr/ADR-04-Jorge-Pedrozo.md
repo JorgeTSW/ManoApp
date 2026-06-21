@@ -4,7 +4,7 @@
 |--------|-------|
 | Autor  | Jorge Pedrozo |
 | Fecha  | 21/06/2026 |
-| Estado | `Reemplazado por ADR-03` |
+| Estado | `Aceptado` |
 
 ---
 
