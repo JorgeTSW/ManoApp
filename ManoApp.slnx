@@ -2,5 +2,6 @@
   <Project Path="ManoApp.Application/ManoApp.Application.csproj" Id="28f539f1-0b07-49ab-97a4-05986bb72b5a" />
   <Project Path="ManoApp.Domain.Tests/ManoApp.Domain.Tests.csproj" Id="b7e92901-0763-46b1-956a-c82b1e6b5c3f" />
   <Project Path="ManoApp.Domain/ManoApp.Domain.csproj" Id="f59c0d7c-d7a2-4032-8020-05e3f0d2ac6a" />
+  <Project Path="ManoApp.Infrastructure/ManoApp.Infrastructure.csproj" Id="5c717b80-0959-4ced-9fc8-78b45ee3f30e" />
   <Project Path="ManoApp.Web/ManoApp.Web.csproj" />
 </Solution>

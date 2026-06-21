@@ -9,6 +9,7 @@
   <ItemGroup>
     <ProjectReference Include="..\ManoApp.Application\ManoApp.Application.csproj" />
     <ProjectReference Include="..\ManoApp.Domain\ManoApp.Domain.csproj" />
+    <ProjectReference Include="..\ManoApp.Infrastructure\ManoApp.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
