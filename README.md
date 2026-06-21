@@ -38,8 +38,8 @@ Las decisiones de arquitectura de este proyecto están documentadas como ADRs (A
 
 ## Screenshots
 
-![**Pantalla de inicio de ManoApp**, mostrando el navbar con las secciones disponibles (Home, Detección de manos, Privacy) y la opción de Iniciar sesión, junto con el botón principal para acceder a la demo de reconocimiento de gestos.]( ./figs/a.PNG )
-
+![]( ./figs/a.PNG )
+**Pantalla de inicio de ManoApp**, mostrando el navbar con las secciones disponibles (Home, Detección de manos, Privacy) y la opción de Iniciar sesión, junto con el botón principal para acceder a la demo de reconocimiento de gestos.
 ---
 
 ![]( ./figs/b.PNG )
