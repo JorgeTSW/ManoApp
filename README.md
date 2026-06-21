@@ -66,7 +66,7 @@ Detección simultánea de ambas manos mostrando el gesto "Puño" (0 dedos extend
 
 ### Historial de gestos vía PowerShell — Acceso autorizado
 
-Consulta del endpoint protegido ´/api/Hand/logs´ usando un token JWT válido con rol Admin, mostrando el historial de gestos detectados (timestamp, requestId, mano, conteo y nombre del gesto).
+Consulta del endpoint protegido `/api/Hand/logs` usando un token JWT válido con rol Admin, mostrando el historial de gestos detectados (timestamp, requestId, mano, conteo y nombre del gesto).
 
 ---
 
@@ -74,7 +74,7 @@ Consulta del endpoint protegido ´/api/Hand/logs´ usando un token JWT válido c
 
 ### Prueba de autorización — Acceso denegado
 
-Intento de iniciar sesión y consultar el historial de logs con un usuario sin permisos suficientes, confirmando que la API rechaza correctamente la petición con ´error 401´ No autorizado.
+Intento de iniciar sesión y consultar el historial de logs con un usuario sin permisos suficientes, confirmando que la API rechaza correctamente la petición con `error 401` No autorizado.
 
 ---
 
