@@ -23,7 +23,7 @@ Este proyecto es una demo didáctica: la misma aplicación evoluciona a través 
 |---|---|---|
 | `01-mvc` | MVC | Punto de partida. Toda la lógica de negocio vive dentro del Controller, sin separación de responsabilidades. |
 | `02-hexagonal` | Arquitectura Hexagonal | El núcleo de negocio (clasificación de gestos) se aísla detrás de Ports, con el Controller como Adapter de entrada. |
-| `03-csv-persistence` | Persistencia | Se agrega un Adapter de salida que guarda un historial de lecturas en CSV. |
+| `03-csv-persistence` | Persistencia + Control de acceso | Se agrega un Adapter de salida que guarda un historial de lecturas en CSV, y autenticación/autorización simple para que solo un rol Admin pueda consultarlo. |
 | `04-api` | API REST | Se separa una Web API formal con DTOs propios, documentada con Swagger. |
 | `05-gof-patterns` | Patrones GOF | Se aplican patrones de diseño (Strategy para clasificación de gestos, Observer/Factory para el registro de eventos). |
 | `06-12factor-cloud-ready` | 12-Factor / Nube | Configuración por variables de entorno, logging estructurado, Dockerfile, listo para desplegar. |
